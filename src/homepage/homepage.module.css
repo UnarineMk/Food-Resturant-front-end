@@ -1,0 +1,54 @@
+.mainContainer {
+  height: 100vh;
+}
+.leftSection {
+  margin-left: var(--marginMain-left);
+  margin-top: 150px;
+}
+.mainHeading {
+  line-height: 40px;
+}
+.firstSentence {
+  font-size: 120px;
+  width: 100%;
+  font-weight: 900;
+  color: rgba(163, 214, 238, 0.671);
+  top: 14rem;
+  display: block;
+  z-index: -1;
+}
+
+.secondSentence {
+  font-size: 40px;
+  width: 100%;
+  font-weight: bolder;
+  line-height: 2px;
+}
+
+.heroImage2 {
+  width: 750px;
+  height: 500px;
+  border-radius: 2rem;
+  position: relative;
+  margin-top: 0px;
+  margin-left: -30px;
+}
+
+.rightSection {
+  align-items: center;
+}
+
+input[type="text"] {
+  border: none;
+  background-color: rgb(194, 193, 193);
+  height: 40px;
+  margin-left: 5px;
+}
+
+.search {
+  background-color: rgb(194, 193, 193);
+  display: flex;
+  width: fit-content;
+  border-radius: 0.4rem;
+  margin-top: 50px;
+}

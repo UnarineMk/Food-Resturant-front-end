@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --marginMain-left: 80px;
+}
+
+.App {
+  position: relative;
+}
+
+.Decoration {
+  background-color: rgb(163, 214, 238);
+  width: 50vh;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}
+
+.Decoration2 {
+  width: 50vh;
+  height: 100vh;
+  position: absolute;
+  z-index: -2;
+  right: 500px;
+  top: -30px;
+}
+
+.imageDeco {
+  width: 120vh;
+  height: 100vh;
+}
